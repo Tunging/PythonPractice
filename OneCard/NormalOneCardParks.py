@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from OneCard.Park import Park
 
 
+
 class nNormalOneCardParks:
     html = requests.get("https://mp.weixin.qq.com/s/5X0qfT7VjqsYq163EWrq3g")
     soup = BeautifulSoup(html.text, "html.parser")
